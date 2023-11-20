@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.conteiner {
+    margin: 20px;
+}
+
 /* HEADER: BANNER */
 .banner {
     padding-top: 50px;
@@ -34,4 +38,43 @@ body {
     font-size: small;
 }
 
-/*  */
+/* IMMAGINI */
+.caption {
+    font-size: small;
+}
+
+/* ARTICOLI */
+.marked {
+    background-color: yellow;
+}
+
+/* LISTA */
+.list {
+    padding-left: 15px;
+}
+
+/* TABELLA */
+table{
+    margin: 20px 0px 20px 0px;
+}
+
+.row1 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.row2 {
+    background-color: skyblue;
+}
+
+.row3 {
+    background-color: white;
+}
+
+.row4 {
+    background-color: skyblue;
+}
+
+.cell-long{
+    width: 50%;
+}
