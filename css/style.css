@@ -3,7 +3,8 @@ body {
 }
 
 .conteiner {
-    margin: 20px;
+    margin: 0 15%;
+    text-align: left;
 }
 
 /* HEADER: BANNER */
@@ -17,6 +18,7 @@ body {
 
 .logo {
     width: 200px;
+    margin: 0 15%;
 }
 
 /* MAIN: TITOLO */
@@ -36,9 +38,14 @@ body {
 
 .date {
     font-size: small;
+    margin-bottom: 20px;
 }
 
 /* IMMAGINI */
+.photo {
+    margin: 0 0 20px 0;
+}
+
 .caption {
     font-size: small;
 }
@@ -50,12 +57,13 @@ body {
 
 /* LISTA */
 .list {
+    margin-top: 20px;
     padding-left: 15px;
 }
 
 /* TABELLA */
 table{
-    margin: 20px 0px 20px 0px;
+    margin: 25px 0px 25px 0px;
 }
 
 .row1 {
@@ -77,4 +85,30 @@ table{
 
 .cell-long{
     width: 50%;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h3{
+    color: grey;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.monitor {
+    width: 315px;
+    height: 208px;
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 20px;
+}
+
+.graph {
+    width: 315px;
+    height: 208px;
+    background-image: url(../img/graph.jpg);
 }
