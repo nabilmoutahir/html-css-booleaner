@@ -1,5 +1,9 @@
+body {
+    margin: 0;
+}
+
 /* HEADER: BANNER */
-.banner{
+.banner {
     padding-top: 50px;
     background-color: skyblue;
     background-image: url(../img/pattern.png);
@@ -10,3 +14,24 @@
 .logo {
     width: 200px;
 }
+
+/* MAIN: TITOLO */
+.title {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.credits {
+    color: gray;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(100, 100, 244);
+}
+
+.date {
+    font-size: small;
+}
+
+/*  */
