@@ -1,0 +1,12 @@
+/* HEADER: BANNER */
+.banner{
+    padding-top: 50px;
+    background-color: skyblue;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.logo {
+    width: 200px;
+}
